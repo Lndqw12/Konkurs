@@ -1,0 +1,202 @@
+/* ------ Общие стили
+-----------------------------------------------*/
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+-background:#f1f1f1;
+font-size:11px;
+}
+
+.pd{
+padding:10px;
+background:#B0AFAF;
+float:left;
+clear:both;
+width:100%;
+margin-bottom:10px;
+font-weight: bold;
+}
+
+.code_sample{
+float:left;
+}
+
+/* ------ Стили для mobilyslider
+-----------------------------------------------*/
+
+#content {
+width:800px;
+margin:100px auto 0;
+}
+
+.slider {
+float:left;
+width:800px;
+height:490px;
+position:relative;
+padding-bottom:26px;
+-background:url(../gfx/bottom_shadow.png) no-repeat bottom center;
+margin-left: 25%;
+margin-top: -2%;
+}
+
+.sliderContent {
+float:left;
+width:800px;
+height:500px;
+clear:both;
+position:relative;
+overflow:hidden;
+-background-color:white;
+}
+
+.sliderArrows a {
+display:block;
+text-indent:-9999px;
+outline:none;
+z-index:50;
+background-image:url(../gfx/prev_next.png);
+width:42px;
+height:42px;
+position:absolute;
+top:50%;
+margin-top:-34px;
+}
+
+.prev {
+background-position:0 0;
+left:15px;
+}
+
+.prev:hover {
+background-position:0 -44px;
+}
+
+.next {
+right:15px;
+background-position:-44px 0;
+}
+
+.next:hover {
+background-position:-44px -44px;
+}
+
+.sliderContent .item {
+position:absolute;
+width:800px;
+height:350px;
+background:#fff;
+}
+
+.sliderBullets {
+position:absolute;
+bottom:0;
+left:50%;
+z-index:50;
+margin-left:-50px;
+}
+
+.sliderBullets a {
+display:block;
+float:left;
+text-indent:-9999px;
+outline:none;
+margin-left:10px;
+width:10px;
+height:11px;
+background:url(../gfx/bullets.png) no-repeat;
+}
+
+.sliderBullets .active {
+background-position:0 -11px;
+}
+
+.sliderContent a {
+outline:none;
+}
+
+a {
+color:#fff;
+}
+
+a img {
+border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+essential styles:
+these make the slideshow work
+
+#slides{
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+
+/*
+non-essential styles:
+just for appearance; change whatever you want
+
+
+.slide{
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+.slide:nth-of-type(1){
+    background: red;
+}
+.slide:nth-of-type(2){
+    background: orange;
+}
+.slide:nth-of-type(3){
+    background: green;
+}
+.slide:nth-of-type(4){
+    background: blue;
+}
+.slide:nth-of-type(5){
+    background: purple;
+}*/

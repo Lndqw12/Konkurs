@@ -1,0 +1,33 @@
+ul {
+	list-style: none;
+	margin: 0 auto;
+	padding-left: 35%;
+	margin-top: 0%;
+	background:rgba(161,131,161,0.4);
+	height: 50px;
+}
+a {
+  font-size: 17px;
+	/* word-spacing: 12px; */
+	text-decoration: none;
+	background:rgba(161,131,161,0.4);
+	color: #fff;
+	padding: 0px 15px;
+	font-family: monospace;
+	line-height: 50px;
+	display: block;
+  -border-right: 1px solid #73D5FF; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+ background:rgba(161,131,161,0.4);/*добавляем эффект при наведении*/
+  transition:0.5s;
+  color:white;
+  text-decoration:none;
+}
+li {
+	-background:rgba(161,131,161,0.1);
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
